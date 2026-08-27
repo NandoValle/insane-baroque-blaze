@@ -7,20 +7,21 @@
 <meta name="description" content="Insane Baroque Blaze, single instrumental de Nando Valle (12/08/2026). Guitarra em fúria barroca, 2 min 44. Ouça no Spotify, Apple Music, YouTube, Deezer, Tidal e Amazon Music.">
 <meta name="google-site-verification" content="gy8Xf_LLq4nGTQE5r8Tp82Fla7Bp9WLb8A3V6Rbjr0E" />
 
-<!-- ⚠️ SUBSTITUIR nas 3 ocorrências: troque https://nandovalle.github.io/insane-baroque-blaze/
-     pela URL real depois de publicar no GitHub Pages (ocorrência 1 de 3) -->
 <link rel="canonical" href="https://nandovalle.github.io/insane-baroque-blaze/">
 
 <meta property="og:type" content="music.song">
 <meta property="og:title" content="Insane Baroque Blaze — Nando Valle">
 <meta property="og:description" content="Single instrumental de Nando Valle. Guitarra em fúria barroca, 2 min 44. Ouça em todas as plataformas.">
-<!-- ⚠️ SUBSTITUIR (ocorrência 2 de 3) -->
 <meta property="og:url" content="https://nandovalle.github.io/insane-baroque-blaze/">
 <meta property="og:image" content="https://nandovalle.github.io/img/insane-baroque-blaze-og-1200x630.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Nando Valle tocando sua Stratocaster vermelha em um salão barroco em chamas, ao lado do título Insane Baroque Blaze">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Insane Baroque Blaze — Nando Valle">
+<meta name="twitter:description" content="Single instrumental de rock de Nando Valle, lançado em 12 de agosto de 2026.">
+<meta name="twitter:image" content="https://nandovalle.github.io/img/insane-baroque-blaze-og-1200x630.jpg">
+<meta name="twitter:image:alt" content="Nando Valle — Insane Baroque Blaze">
 
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%94%A5%3C/text%3E%3C/svg%3E">
 
@@ -34,21 +35,18 @@
   "@graph": [
     {
       "@type": "MusicRecording",
-      "@id": "#gravacao",
+      "@id": "https://nandovalle.github.io/insane-baroque-blaze/#recording",
       "name": "Insane Baroque Blaze",
-      "byArtist": { "@id": "#artista" },
+      "byArtist": { "@id": "https://nandovalle.github.io/#artist" },
       "duration": "PT2M44S",
       "isrcCode": "QZNJV2617176",
       "datePublished": "2026-08-12",
       "genre": "Instrumental Rock",
-      "image": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737c9b4ca66417528fd9b5ed9f",
+      "inLanguage": "zxx",
+      "image": "https://nandovalle.github.io/img/insane-baroque-blaze-og-1200x630.jpg",
       "url": "https://nandovalle.github.io/insane-baroque-blaze/",
-      "inAlbum": {
-        "@type": "MusicAlbum",
-        "name": "Insane Baroque Blaze",
-        "albumReleaseType": "https://schema.org/SingleRelease",
-        "byArtist": { "@id": "#artista" }
-      },
+      "inAlbum": { "@id": "https://nandovalle.github.io/insane-baroque-blaze/#release" },
+      "mainEntityOfPage": { "@id": "https://nandovalle.github.io/insane-baroque-blaze/#webpage" },
       "sameAs": [
         "https://open.spotify.com/track/0tVaSUQuKdwRk9m4wdM1wN",
         "https://music.apple.com/us/album/insane-baroque-blaze/6794384680?i=6794384682",
@@ -66,16 +64,46 @@
       ]
     },
     {
+      "@type": "MusicAlbum",
+      "@id": "https://nandovalle.github.io/insane-baroque-blaze/#release",
+      "name": "Insane Baroque Blaze",
+      "albumReleaseType": "https://schema.org/SingleRelease",
+      "byArtist": { "@id": "https://nandovalle.github.io/#artist" },
+      "datePublished": "2026-08-12",
+      "image": "https://nandovalle.github.io/img/insane-baroque-blaze-og-1200x630.jpg",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "UPC",
+        "value": "745583065199"
+      }
+    },
+    {
       "@type": "MusicGroup",
-      "@id": "#artista",
+      "@id": "https://nandovalle.github.io/#artist",
       "name": "Nando Valle",
       "genre": "Instrumental Rock",
       "url": "https://nandovalle.github.io/",
       "sameAs": [
         "https://open.spotify.com/artist/3pHmeyLy9Du1fsh3RCACIQ",
+        "https://music.apple.com/us/artist/nando-valle/6793694273",
         "https://www.instagram.com/nandovale7",
-        "https://music.apple.com/us/artist/nando-valle/6793694273"
+        "https://soundcloud.com/nandovalle",
+        "https://musicbrainz.org/artist/5df30714-7e47-486c-ba63-8a8ec57d0412",
+        "https://www.wikidata.org/wiki/Q141164901"
       ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://nandovalle.github.io/insane-baroque-blaze/#webpage",
+      "url": "https://nandovalle.github.io/insane-baroque-blaze/",
+      "name": "Insane Baroque Blaze — Nando Valle",
+      "description": "Página oficial de Insane Baroque Blaze, single instrumental de rock de Nando Valle, lançado em 12 de agosto de 2026.",
+      "inLanguage": "pt-BR",
+      "dateModified": "2026-08-27",
+      "mainEntity": { "@id": "https://nandovalle.github.io/insane-baroque-blaze/#recording" },
+      "about": { "@id": "https://nandovalle.github.io/insane-baroque-blaze/#recording" },
+      "author": { "@id": "https://nandovalle.github.io/#artist" },
+      "image": "https://nandovalle.github.io/img/insane-baroque-blaze-og-1200x630.jpg"
     }
   ]
 }
@@ -227,6 +255,41 @@ h1 {
 .lojas .todas { grid-column: 1 / -1; justify-content: center; gap: .6rem; }
 a:focus-visible { outline: 2px solid var(--ember); outline-offset: 3px; }
 
+/* ---- Sobre & FAQ ---- */
+.sobre h2,
+.faq h2 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 700;
+  font-size: clamp(1.7rem, 6vw, 2.2rem);
+  line-height: 1.05;
+  margin-bottom: 1rem;
+  color: var(--parchment);
+}
+.sobre p {
+  margin: .9rem 0;
+  color: var(--smoke);
+  line-height: 1.75;
+}
+.sobre strong { color: var(--parchment); font-weight: 600; }
+.sobre a {
+  color: var(--gold);
+  text-decoration-thickness: 1px;
+  text-underline-offset: .2em;
+}
+.sobre a:hover { color: var(--ember); }
+.faq details {
+  padding: .9rem 0;
+  border-top: 1px solid rgba(199, 154, 75, .16);
+}
+.faq details:last-of-type { border-bottom: 1px solid rgba(199, 154, 75, .16); }
+.faq summary {
+  cursor: pointer;
+  color: var(--parchment);
+  font-weight: 600;
+}
+.faq summary::marker { color: var(--gold); }
+.faq p { margin: .6rem 0 0; color: var(--smoke); line-height: 1.7; }
+
 /* ---- Ficha técnica ---- */
 .ficha {
   border: 1px solid var(--gold-dim);
@@ -306,6 +369,35 @@ footer .sep { margin: 0 .55rem; color: var(--gold-dim); }
     </svg>
   </div>
 
+  <section class="sobre" aria-labelledby="sobre-faixa">
+    <h2 id="sobre-faixa">Sobre Insane Baroque Blaze</h2>
+    <p>
+      <strong>Insane Baroque Blaze</strong> é uma faixa instrumental de rock
+      do guitarrista e produtor brasileiro <strong>Nando Valle</strong>,
+      lançada em <time datetime="2026-08-12">12 de agosto de 2026</time>.
+      A gravação tem <strong>2 min 44 s</strong> e o ISRC
+      <strong>QZNJV2617176</strong>.
+    </p>
+    <p>
+      A faixa combina guitarra elétrica virtuosa com linguagem inspirada
+      no barroco e no rock neoclássico. No site oficial de Nando Valle,
+      a gravação também é o objeto de um laudo publicado sobre o uso do
+      trítono, com método, arquivos MIDI e resultados reproduzíveis.
+    </p>
+    <p>
+      <a href="https://nandovalle.github.io/o-tritono/">Ver o laudo do trítono e os arquivos do experimento</a>.
+    </p>
+  </section>
+
+  <div class="floreio" role="presentation" aria-hidden="true">
+    <svg width="120" height="18" viewBox="0 0 120 18" fill="none">
+      <path d="M4 9 C 22 2, 38 16, 54 9" stroke="#c79a4b" stroke-width="1"/>
+      <path d="M116 9 C 98 2, 82 16, 66 9" stroke="#c79a4b" stroke-width="1"/>
+      <circle cx="60" cy="9" r="3.2" fill="#ff7a2f"/>
+      <circle cx="60" cy="9" r="6.5" stroke="#c79a4b" stroke-width=".8"/>
+    </svg>
+  </div>
+
   <section aria-label="Onde ouvir">
     <p class="rotulo">Ouça na sua loja</p>
     <ul class="lojas">
@@ -323,6 +415,42 @@ footer .sep { margin: 0 .55rem; color: var(--gold-dim); }
       <li><a href="https://music.163.com/song?id=3410917495" rel="noopener">NetEase (网易云)</a></li>
       <li><a class="todas" href="https://song.link/us/i/6794384682" rel="noopener">Todas as plataformas</a></li>
     </ul>
+  </section>
+
+  <div class="floreio" role="presentation" aria-hidden="true">
+    <svg width="120" height="18" viewBox="0 0 120 18" fill="none">
+      <path d="M4 9 C 22 2, 38 16, 54 9" stroke="#c79a4b" stroke-width="1"/>
+      <path d="M116 9 C 98 2, 82 16, 66 9" stroke="#c79a4b" stroke-width="1"/>
+      <circle cx="60" cy="9" r="3.2" fill="#ff7a2f"/>
+      <circle cx="60" cy="9" r="6.5" stroke="#c79a4b" stroke-width=".8"/>
+    </svg>
+  </div>
+
+  <section class="faq" aria-labelledby="faq-faixa">
+    <h2 id="faq-faixa">Perguntas sobre a faixa</h2>
+    <details>
+      <summary>O que é Insane Baroque Blaze?</summary>
+      <p>Insane Baroque Blaze é uma faixa instrumental de rock de Nando Valle,
+      lançada em 12 de agosto de 2026.</p>
+    </details>
+    <details>
+      <summary>Quem é o artista de Insane Baroque Blaze?</summary>
+      <p>A faixa é interpretada por Nando Valle, guitarrista e produtor brasileiro.</p>
+    </details>
+    <details>
+      <summary>Qual é o ISRC de Insane Baroque Blaze?</summary>
+      <p>O ISRC da gravação é QZNJV2617176.</p>
+    </details>
+    <details>
+      <summary>Qual é a duração de Insane Baroque Blaze?</summary>
+      <p>A gravação tem duração de 2 minutos e 44 segundos.</p>
+    </details>
+    <details>
+      <summary>Onde ouvir Insane Baroque Blaze?</summary>
+      <p>A faixa está disponível no Spotify, Apple Music, YouTube, YouTube Music,
+      Deezer, Tidal, Amazon Music, SoundCloud, Qobuz e nas demais plataformas
+      listadas nesta página.</p>
+    </details>
   </section>
 
   <div class="floreio" role="presentation" aria-hidden="true">
