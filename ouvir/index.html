@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Do que ela fala? — Insane Baroque Blaze | Nando Valle</title>
+<meta name="description" content="Insane Baroque Blaze, de Nando Valle, nao tem uma palavra e mesmo assim conta uma historia. Escute e me diga do que ela fala.">
+<link rel="canonical" href="https://nandovalle.github.io/insane-baroque-blaze/ouvir/">
+<meta property="og:type" content="music.song">
+<meta property="og:site_name" content="Nando Valle">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Do que ela fala? — Insane Baroque Blaze">
+<meta property="og:description" content="Dois minutos e quarenta e quatro segundos, nenhum verso, e uma historia que ninguem acertou ainda.">
+<meta property="og:url" content="https://nandovalle.github.io/insane-baroque-blaze/ouvir/">
+<meta property="og:image" content="https://nandovalle.github.io/img/nando-blaze-fogo.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Do que ela fala? — Insane Baroque Blaze">
+<meta name="twitter:description" content="Dois minutos e quarenta e quatro segundos, nenhum verso, e uma historia que ninguem acertou ainda.">
+<meta name="twitter:image" content="https://nandovalle.github.io/img/nando-blaze-fogo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&family=Archivo:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://nandovalle.github.io/insane-baroque-blaze/ouvir/#webpage",
+  "url": "https://nandovalle.github.io/insane-baroque-blaze/ouvir/",
+  "name": "Do que ela fala? — Insane Baroque Blaze",
+  "inLanguage": "pt-BR",
+  "isPartOf": { "@id": "https://nandovalle.github.io/#website" },
+  "about": { "@id": "https://nandovalle.github.io/insane-baroque-blaze/#recording" },
+  "primaryImageOfPage": "https://nandovalle.github.io/img/nando-blaze-fogo.jpg"
+}
+</script>
+<style>
+  /* Peça deliberadamente de tema único: um salão escuro à luz de vela.
+     Toda cor é pintada explicitamente — a página não herda o fundo do host. */
+  :root {
+    --breu:        #0E0A09;
+    --breu-alto:   #171110;
+    --borda:       #2C211D;
+    --pergaminho:  #E8DFD1;
+    --fumaca:      #9A8C7C;
+    --ouro:        #C9A227;
+    --ouro-fraco:  #6E5A1E;
+    --brasa:       #C4342A;
+    --brasa-viva:  #E04A38;
+
+    --passo: clamp(3.5rem, 9vw, 6.5rem);
+    --col: 34rem;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--breu);
+    color: var(--pergaminho);
+    font-family: Archivo, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .env {
+    max-width: var(--col);
+    margin-inline: auto;
+    padding-inline: 1.5rem;
+  }
+
+  /* ---------- abertura ---------- */
+
+  .abertura {
+    position: relative;
+    padding-block: clamp(5rem, 16vh, 9rem) var(--passo);
+    overflow: hidden;
+  }
+
+  /* brasa por trás do título — a única "imagem" da página, feita em gradiente */
+  .abertura::before {
+    content: "";
+    position: absolute;
+    top: -14rem; left: 50%;
+    width: min(46rem, 150vw); height: 34rem;
+    transform: translateX(-50%);
+    background:
+      radial-gradient(ellipse 52% 44% at 50% 62%, rgba(196,52,42,.30), transparent 68%),
+      radial-gradient(ellipse 34% 30% at 50% 66%, rgba(201,162,39,.20), transparent 70%);
+    pointer-events: none;
+  }
+
+  .abertura > .env { position: relative; }
+
+  .selo {
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-size: .6875rem;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: var(--ouro);
+    margin: 0 0 2rem;
+  }
+
+  h1 {
+    font-family: "Bodoni Moda", Georgia, serif;
+    font-weight: 400;
+    font-size: clamp(2.6rem, 9.5vw, 4.1rem);
+    line-height: 1.04;
+    letter-spacing: -.015em;
+    text-wrap: balance;
+    margin: 0 0 1.75rem;
+  }
+
+  h1 em {
+    font-style: italic;
+    color: var(--ouro);
+  }
+
+  .linha-fina {
+    color: var(--fumaca);
+    font-size: 1.0625rem;
+    margin: 0;
+    max-width: 30rem;
+  }
+
+  .linha-fina strong {
+    color: var(--pergaminho);
+    font-weight: 500;
+  }
+
+  /* ---------- ornamento ---------- */
+
+  .ornamento {
+    display: block;
+    width: 6.5rem;
+    height: auto;
+    margin: var(--passo) auto;
+    color: var(--ouro-fraco);
+  }
+
+  /* ---------- seções ---------- */
+
+  section { padding-block: 0; }
+
+  h2 {
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-size: .6875rem;
+    font-weight: 500;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: var(--ouro);
+    margin: 0 0 1.5rem;
+  }
+
+  h3 {
+    font-family: "Bodoni Moda", Georgia, serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.25;
+    letter-spacing: -.01em;
+    margin: 0 0 .5rem;
+    text-wrap: balance;
+  }
+
+  p { margin: 0 0 1.15rem; }
+  p:last-child { margin-bottom: 0; }
+
+  /* o trato: três movimentos, e a ordem importa de verdade */
+  .movimentos {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .movimento {
+    display: grid;
+    grid-template-columns: 2.25rem 1fr;
+    gap: 0 1rem;
+    align-items: start;
+  }
+
+  .num {
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-size: .8125rem;
+    color: var(--ouro-fraco);
+    padding-top: .45rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .movimento p {
+    color: var(--fumaca);
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  /* ---------- ouvir ---------- */
+
+  .principal {
+    display: inline-flex;
+    align-items: center;
+    gap: .7rem;
+    background: var(--brasa);
+    color: #FFF4F0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.0625rem;
+    padding: 1rem 1.6rem;
+    border: none;
+    border-radius: 2px;
+    transition: background .18s ease, transform .18s ease;
+  }
+  .principal:hover { background: var(--brasa-viva); }
+  .principal:active { transform: translateY(1px); }
+
+  .principal svg { flex: none; }
+
+  .lojas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem .35rem;
+    margin: 1.5rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .lojas a {
+    display: inline-block;
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-size: .75rem;
+    letter-spacing: .04em;
+    color: var(--fumaca);
+    text-decoration: none;
+    padding: .35rem .6rem;
+    border: 1px solid var(--borda);
+    border-radius: 2px;
+    transition: color .16s ease, border-color .16s ease;
+  }
+  .lojas a:hover { color: var(--ouro); border-color: var(--ouro-fraco); }
+
+  /* ---------- resposta ---------- */
+
+  .caixa {
+    background: var(--breu-alto);
+    border: 1px solid var(--borda);
+    border-radius: 3px;
+    padding: 1.5rem;
+  }
+
+  label {
+    display: block;
+    font-size: .9375rem;
+    color: var(--fumaca);
+    margin-bottom: .75rem;
+  }
+
+  textarea {
+    width: 100%;
+    min-height: 8.5rem;
+    resize: vertical;
+    background: var(--breu);
+    color: var(--pergaminho);
+    border: 1px solid var(--borda);
+    border-radius: 2px;
+    padding: .9rem 1rem;
+    font-family: Archivo, sans-serif;
+    font-size: 1rem;
+    line-height: 1.55;
+    transition: border-color .16s ease;
+  }
+  textarea::placeholder { color: #6B6058; }
+  textarea:focus {
+    outline: none;
+    border-color: var(--ouro-fraco);
+  }
+  textarea:focus-visible { outline: 2px solid var(--ouro); outline-offset: 2px; }
+
+  .acoes {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+
+  .copiar {
+    font-family: Archivo, sans-serif;
+    font-weight: 600;
+    font-size: .9375rem;
+    background: transparent;
+    color: var(--ouro);
+    border: 1px solid var(--ouro-fraco);
+    border-radius: 2px;
+    padding: .7rem 1.2rem;
+    cursor: pointer;
+    transition: background .16s ease, color .16s ease;
+  }
+  .copiar:hover { background: var(--ouro); color: var(--breu); }
+  .copiar:focus-visible { outline: 2px solid var(--ouro); outline-offset: 2px; }
+  .copiar[disabled] { opacity: .45; cursor: default; }
+  .copiar[disabled]:hover { background: transparent; color: var(--ouro); }
+
+  .aviso {
+    font-size: .875rem;
+    color: var(--fumaca);
+    margin: 0;
+    min-height: 1.4em;
+  }
+  .aviso.ok { color: var(--ouro); }
+
+  .rodape-caixa {
+    font-size: .875rem;
+    color: var(--fumaca);
+    margin: 1.25rem 0 0;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--borda);
+  }
+
+  /* ---------- ficha ---------- */
+
+  .ficha {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: .55rem 1.5rem;
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-size: .8125rem;
+    margin: 0;
+  }
+  .ficha dt { color: var(--ouro-fraco); }
+  .ficha dd {
+    margin: 0;
+    color: var(--fumaca);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- rodapé ---------- */
+
+  footer {
+    padding-block: var(--passo) 4rem;
+    text-align: center;
+  }
+
+  footer p {
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-size: .75rem;
+    letter-spacing: .06em;
+    color: #6B6058;
+    margin: 0;
+  }
+
+  footer a { color: var(--fumaca); text-decoration: none; border-bottom: 1px solid var(--borda); }
+  footer a:hover { color: var(--ouro); border-color: var(--ouro-fraco); }
+
+  a:focus-visible { outline: 2px solid var(--ouro); outline-offset: 3px; border-radius: 1px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<main>
+
+  <header class="abertura">
+    <div class="env">
+      <p class="selo">Nando Valle &middot; 2026</p>
+      <h1>Não tem uma palavra. Mesmo assim <em>conta uma história.</em></h1>
+      <p class="linha-fina">
+        <strong>Insane Baroque Blaze</strong> tem dois minutos e quarenta e quatro segundos,
+        nenhum verso, e uma história que ninguém acertou ainda.
+      </p>
+    </div>
+  </header>
+
+  <svg class="ornamento" viewBox="0 0 200 22" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true">
+    <path d="M8 11h58" stroke-linecap="round"/>
+    <path d="M134 11h58" stroke-linecap="round"/>
+    <path d="M76 11c0-5 4-8 8-6s3 8-3 9-9-3-9-3" />
+    <path d="M124 11c0-5-4-8-8-6s-3 8 3 9 9-3 9-3" />
+    <circle cx="100" cy="11" r="2.6" fill="currentColor" stroke="none"/>
+  </svg>
+
+  <section class="env" aria-labelledby="t-trato">
+    <h2 id="t-trato">O trato</h2>
+    <ol class="movimentos">
+      <li class="movimento">
+        <span class="num">01</span>
+        <div>
+          <h3>Você escuta</h3>
+          <p>São dois minutos e quarenta e quatro segundos. Fone, se der — a peça foi feita para ser ouvida por dentro.</p>
+        </div>
+      </li>
+      <li class="movimento">
+        <span class="num">02</span>
+        <div>
+          <h3>Me diz do que ela fala</h3>
+          <p>Não existe resposta certa cadastrada em lugar nenhum. Existe o que você ouviu — e é isso que eu quero saber.</p>
+        </div>
+      </li>
+      <li class="movimento">
+        <span class="num">03</span>
+        <div>
+          <h3>Eu toco a sua favorita de volta</h3>
+          <p>Se acertar, eu toco. Se errar, também. A parte que me interessa é a sua, não o acerto.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <svg class="ornamento" viewBox="0 0 200 22" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true">
+    <path d="M8 11h58" stroke-linecap="round"/>
+    <path d="M134 11h58" stroke-linecap="round"/>
+    <path d="M76 11c0-5 4-8 8-6s3 8-3 9-9-3-9-3" />
+    <path d="M124 11c0-5-4-8-8-6s-3 8 3 9 9-3 9-3" />
+    <circle cx="100" cy="11" r="2.6" fill="currentColor" stroke="none"/>
+  </svg>
+
+  <section class="env" aria-labelledby="t-ouvir">
+    <h2 id="t-ouvir">Ouvir</h2>
+    <a class="principal" href="https://open.spotify.com/track/0tVaSUQuKdwRk9m4wdM1wN" target="_blank" rel="noopener">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm4.586 14.424a.624.624 0 01-.857.207c-2.348-1.435-5.304-1.76-8.785-.964a.622.622 0 11-.277-1.215c3.809-.871 7.077-.496 9.713 1.115a.623.623 0 01.206.857zm1.223-2.722a.78.78 0 01-1.072.257c-2.687-1.652-6.785-2.131-9.965-1.166a.78.78 0 11-.452-1.492c3.632-1.102 8.147-.568 11.232 1.329a.78.78 0 01.257 1.072zm.105-2.835c-3.223-1.914-8.54-2.09-11.617-1.156a.935.935 0 11-.543-1.79c3.532-1.072 9.404-.865 13.115 1.338a.936.936 0 01-.955 1.608z"/></svg>
+      Ouvir no Spotify
+    </a>
+    <ul class="lojas">
+      <li><a href="https://music.apple.com/us/album/insane-baroque-blaze/6794384680?i=6794384682" target="_blank" rel="noopener">Apple&nbsp;Music</a></li>
+      <li><a href="https://www.youtube.com/watch?v=m0nqZgA-ung" target="_blank" rel="noopener">YouTube</a></li>
+      <li><a href="https://music.youtube.com/watch?v=m0nqZgA-ung" target="_blank" rel="noopener">YT&nbsp;Music</a></li>
+      <li><a href="https://www.deezer.com/track/4174912812" target="_blank" rel="noopener">Deezer</a></li>
+      <li><a href="https://listen.tidal.com/track/546080434" target="_blank" rel="noopener">Tidal</a></li>
+      <li><a href="https://music.amazon.com/albums/B0HBD4XZXC" target="_blank" rel="noopener">Amazon</a></li>
+      <li><a href="https://soundcloud.com/nandovalle/insane-baroque-blaze" target="_blank" rel="noopener">SoundCloud</a></li>
+      <li><a href="https://song.link/us/i/6794384682" target="_blank" rel="noopener">Todas&nbsp;as&nbsp;lojas</a></li>
+    </ul>
+  </section>
+
+  <svg class="ornamento" viewBox="0 0 200 22" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true">
+    <path d="M8 11h58" stroke-linecap="round"/>
+    <path d="M134 11h58" stroke-linecap="round"/>
+    <path d="M76 11c0-5 4-8 8-6s3 8-3 9-9-3-9-3" />
+    <path d="M124 11c0-5-4-8-8-6s-3 8 3 9 9-3 9-3" />
+    <circle cx="100" cy="11" r="2.6" fill="currentColor" stroke="none"/>
+  </svg>
+
+  <section class="env" aria-labelledby="t-resposta">
+    <h2 id="t-resposta">O que você ouviu</h2>
+    <div class="caixa">
+      <label for="resposta">Uma frase basta. Uma cena, um lugar, uma briga, um adeus — o que veio.</label>
+      <textarea id="resposta" placeholder="Ouvi…"></textarea>
+      <div class="acoes">
+        <button class="copiar" id="copiar" type="button">Copiar minha resposta</button>
+        <p class="aviso" id="aviso" role="status" aria-live="polite"></p>
+      </div>
+      <p class="rodape-caixa">
+        Copie e cole na nossa conversa. Nada do que você escreve aqui é enviado
+        ou guardado em lugar nenhum — o texto fica no seu aparelho até você colar.
+      </p>
+    </div>
+  </section>
+
+  <svg class="ornamento" viewBox="0 0 200 22" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true">
+    <path d="M8 11h58" stroke-linecap="round"/>
+    <path d="M134 11h58" stroke-linecap="round"/>
+    <path d="M76 11c0-5 4-8 8-6s3 8-3 9-9-3-9-3" />
+    <path d="M124 11c0-5-4-8-8-6s-3 8 3 9 9-3 9-3" />
+    <circle cx="100" cy="11" r="2.6" fill="currentColor" stroke="none"/>
+  </svg>
+
+  <section class="env" aria-labelledby="t-ficha">
+    <h2 id="t-ficha">A peça</h2>
+    <dl class="ficha">
+      <dt>Duração</dt><dd>02:44</dd>
+      <dt>Formação</dt><dd>Instrumental</dd>
+      <dt>Estreia</dt><dd>12 de agosto de 2026</dd>
+      <dt>ISRC</dt><dd>QZNJV2617176</dd>
+    </dl>
+  </section>
+
+  <footer class="env">
+    <p><a href="https://nandovalle.github.io/insane-baroque-blaze/" target="_blank" rel="noopener">nandovalle.github.io</a></p>
+  </footer>
+
+</main>
+
+<script>
+  (function () {
+    var campo = document.getElementById('resposta');
+    var botao = document.getElementById('copiar');
+    var aviso = document.getElementById('aviso');
+    var CHAVE = 'blaze-resposta';
+
+    // rascunho local, conveniência do visitante — nunca sai do aparelho dele
+    try {
+      var salvo = localStorage.getItem(CHAVE);
+      if (salvo) campo.value = salvo;
+    } catch (e) { /* navegador sem storage: segue sem rascunho */ }
+
+    campo.addEventListener('input', function () {
+      try { localStorage.setItem(CHAVE, campo.value); } catch (e) {}
+    });
+
+    function fala(texto, ok) {
+      aviso.textContent = texto;
+      aviso.className = ok ? 'aviso ok' : 'aviso';
+    }
+
+    function porFora(texto) {
+      var alvo = document.createElement('textarea');
+      alvo.value = texto;
+      alvo.setAttribute('readonly', '');
+      alvo.style.position = 'fixed';
+      alvo.style.top = '-1000px';
+      document.body.appendChild(alvo);
+      alvo.select();
+      var deu = false;
+      try { deu = document.execCommand('copy'); } catch (e) { deu = false; }
+      document.body.removeChild(alvo);
+      return deu;
+    }
+
+    botao.addEventListener('click', function () {
+      var texto = campo.value.trim();
+      if (!texto) {
+        campo.focus();
+        fala('Escreva o que você ouviu primeiro.', false);
+        return;
+      }
+
+      var monta = 'Ouvi Insane Baroque Blaze. ' + texto;
+
+      function deuCerto() {
+        fala('Copiado — agora é só colar na conversa.', true);
+      }
+      function deuErrado() {
+        campo.focus();
+        campo.select();
+        fala('Seu navegador bloqueou a cópia. O texto está selecionado — copie à mão.', false);
+      }
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(monta).then(deuCerto, function () {
+          if (porFora(monta)) { deuCerto(); } else { deuErrado(); }
+        });
+      } else if (porFora(monta)) {
+        deuCerto();
+      } else {
+        deuErrado();
+      }
+    });
+  })();
+</script>
+
+</body>
+</html>
